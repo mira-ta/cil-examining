@@ -3,7 +3,7 @@
 *CILExamining* - is an obfuscator written in C# using `dnlib` library on .NET Framework (.NET Core in the future). This is an experiment for me, owner of the repository, since I was 
 bad in RE and some elseshit.
 
-Inspired by `AsStrongAsFuck` obfuscator.
+Inspired by [charterino/AsStrongAsFuck](github.com/charterino/AsStrongAsFuck) obfuscator.
 
 ## Running it
 
@@ -41,4 +41,5 @@ public sealed class FooBarObfuscation : IObfuscation {
 ...
 ```
 
-This class will be found in bootstrap and casted as `IObfuscation` will have been executed.
+This class will be found in bootstrap and will have been casted as 
+`IObfuscation` will be executed.
